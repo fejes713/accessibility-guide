@@ -2,7 +2,7 @@
   "name": "accessibility-guide",
   "version": "0.0.1",
   "description": "A curated collection of web accessibility tips, tricks and best practices",
-  "keywords": ["accessibility", "a11y", "guide", "list"],
+  "keywords": ["accessibility", "a11y", "guide", "list", "WCAG", "ARIA"],
   "homepage": "https://webaccessibility.guide",
   "repository": {
     "type": "git",
