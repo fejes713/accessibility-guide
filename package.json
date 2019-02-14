@@ -1,11 +1,21 @@
 {
   "name": "accessibility-guide",
   "version": "0.0.1",
-  "description": "",
+  "description": "A curated collection of web accessibility tips, tricks and best practices",
+  "keywords": ["accessibility", "a11y", "guide", "list"],
+  "homepage": "https://webaccessibility.guide",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fejes713/accessibility-guide"
+  },
+  "bugs": {
+    "url": "https://github.com/fejes713/accessibility-guide/issues",
+    "email": "ns.fejes.stefan@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Stefan Feješ",
+  "author": "Stefan Fejes <ns.fejes.stefan@gmail.com> (https://stefanfejes.com)",
   "license": "MIT"
 }
