@@ -1,6 +1,6 @@
 ### When you need to display tabular data use `table` instead series of `div` elements
 
-When you need to display some tabular data be sure to use semantically correct `table` element as it is by default accessible compared to non-semantic elements like `div`. You should provide a `summary` attribute to `table` element and allow the user to skip table with skip link if he doesn't want it read by screen reader.
+When you need to display some tabular data be sure to use semantically correct `table` element as it is by default accessible compared to non-semantic elements like `div`. You should provide a `caption` to `table` element and allow the user to skip table with skip link if he doesn't want it read by screen reader.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
