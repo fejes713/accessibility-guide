@@ -1,5 +1,6 @@
-# Put full stop at the end of `alt` tag
+### Put full stop at the end of `alt` tag
 
+### Detailed explanation
 Put the full stop at the end of image description inside `alt` tag so that screen reader can make a short pause which leads to better user experience.
 
 ### Resources

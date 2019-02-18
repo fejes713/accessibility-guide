@@ -1,6 +1,7 @@
-# Use skip-links
+### Use skip-links
 
-Let users skip long navigation by implementing invisible focusable link that leads to main content. Screen readers perceive the page from top to bottom which means that if there is no skip-link implemented and the website is already familiar to the end user, the screen reader will read redundant navigation. 
+### Detailed explanation
+Let users skip long navigation by implementing invisible focusable link that leads to main content. Screen readers perceive the page from top to bottom which means that if there is no skip-link implemented and the website is already familiar to the end user, the screen reader will read redundant navigation.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
