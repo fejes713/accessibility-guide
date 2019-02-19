@@ -2,7 +2,14 @@
   "name": "accessibility-guide",
   "version": "0.0.1",
   "description": "A curated collection of web accessibility tips, tricks and best practices",
-  "keywords": ["accessibility", "a11y", "guide", "list", "WCAG", "ARIA"],
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "guide",
+    "list",
+    "WCAG",
+    "ARIA"
+  ],
   "homepage": "https://webaccessibility.guide",
   "repository": {
     "type": "git",
@@ -17,5 +24,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stefan Fejes <ns.fejes.stefan@gmail.com> (https://stefanfejes.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1"
+  }
 }
