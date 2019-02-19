@@ -6,6 +6,7 @@ Use semantic HTML elements that clearly define their content as much as possible
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
 * [Semantics in HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [The practical value of semantic html](https://www.brucelawson.co.uk/2018/the-practical-value-of-semantic-html/)
 
 <!-- category: (0)-->
 <!-- available categories:
