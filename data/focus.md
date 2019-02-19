@@ -4,7 +4,7 @@ Never remove highlight by setting `outline: none;` on a focused state of an elem
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [CSS-Tricks guide to focus styles](https://css-tricks.com/focusing-on-focus-styles/)
+* [Focusing on Focus Styles](https://css-tricks.com/focusing-on-focus-styles/)
 
 <!-- category: (0)-->
 <!-- available categories:
