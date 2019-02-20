@@ -1,6 +1,6 @@
 ### Don't remove `:focus` on elements
 
-If an element is interactive never remove highlight by setting `outline: none;` on a focused state of that element. If the default browser outline doesn't align with the design be sure to replace it with custom accessible one instead of hiding it completely. Removing element highlight on focus makes filling out forms difficult for some users.
+If an element is interactive never remove the highlight by setting `outline: none;` on a focused state of that element. If the default browser outline doesn't align with the design be sure to replace it with a custom accessible one instead of hiding it completely. Removing an element's highlight on focus makes filling out forms difficult for some users.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
