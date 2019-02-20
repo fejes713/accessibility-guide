@@ -1,6 +1,6 @@
-### Images with text should be available to the screen reader
+### Images with text should be accessible to screen readers
 
-Images that contain text in them such as logos should make that text available to the screen reader in some form. The most straightforward way to do this is to style `header` element as image and `text-indent: -9999px` it's text content.
+Images that contain text in them such as logos should make that text available to screen readers in some form. The most straightforward way to do this is to style a `header` element as image and use `text-indent: -9999px` as its text content.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
