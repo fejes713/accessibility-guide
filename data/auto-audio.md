@@ -1,6 +1,6 @@
 ### Avoid auto-playing audio on your website
 
-Do not auto-play any audio or video material on page load. Users with screen readers will hear both 3rd party audio and their screen reader which makes poor user experience.
+Do not auto-play any audio or video material on page load. Users with screen readers will hear both 3rd party audio and their screen reader which makes for a poor user experience.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
