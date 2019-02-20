@@ -1,6 +1,6 @@
 ### Make `tab` friendly navigation
 
-Allow users to use keyboard-only navigation on your website by ensuring that all interactive elements and focusable in a logical order.
+Allow users to use keyboard-only navigation on your website by ensuring that all interactive elements are focusable and in a logical order.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
