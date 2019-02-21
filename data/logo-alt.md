@@ -4,7 +4,6 @@ Hearing screen readers pronounce the description of your logo over and over gets
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
 
 <!-- category: (1)-->
 <!-- available categories:

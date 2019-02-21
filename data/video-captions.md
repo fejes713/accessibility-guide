@@ -4,7 +4,6 @@ Videos on your websites should have proper captioning. When transcribing video c
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
 
 <!-- category: (1)-->
 <!-- available categories:

@@ -79,7 +79,7 @@ try {
       output += headers.h3(snippet.shortTip).trim();
       output += `\n\n${snippet.longTip}`;
       if (snippet.links && snippet.links.length) {
-        output += headers.h4('Links');
+        output += headers.h4('Resources');
         output += `\n${snippet.links.map(v => `* ${v}`).join('\n')}`;
       }
       output += `\n<br>${misc.link(

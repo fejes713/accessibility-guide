@@ -4,7 +4,6 @@ Do not auto-play any audio or video material on page load. Users with screen rea
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
 
 <!-- category: (0)-->
 <!-- available categories:

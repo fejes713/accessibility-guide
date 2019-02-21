@@ -4,7 +4,6 @@ Some screen readers can not figure out the styled layout, so they work with the 
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
 
 <!-- category: (2)-->
 <!-- available categories:
