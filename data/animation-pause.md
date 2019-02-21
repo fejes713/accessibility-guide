@@ -4,7 +4,6 @@ Complex or even simple animations can make it hard for some users to focus on th
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
 
 <!-- category: (1)-->
 <!-- available categories:

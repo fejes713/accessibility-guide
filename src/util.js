@@ -63,6 +63,16 @@ const getSection = (searchString, contents, includeSubsections = true) => {
 const getFirstSection = (contents, includeSubsections) =>
     getSection("", contents.slice(3), includeSubsections)
 
+const getLongTip = str => {
+    const regex = /^.*\n*([\s\S]*?)(###)|(<!--)/;
+    const results = [];
+    let m = regex.exec(str);
+    return m[1];
+};
+
+const getShortTip = (contents) =>
+    contents.split('\n')[0].replace(/^#+\s+/g, '');
+
 module.exports = {
     attempt,
     readData,
@@ -70,5 +80,7 @@ module.exports = {
     DATA_PATH,
     CATEGORY_NAMES,
     getSection,
-    getFirstSection
+    getFirstSection,
+    getLongTip,
+    getShortTip
 }

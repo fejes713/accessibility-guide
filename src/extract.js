@@ -6,15 +6,17 @@ const {
     attempt,
     readData,
     getSection,
-    getFirstSection
+    getFirstSection,
+    getShortTip,
+    getLongTip
 } = require("./util")
 
 console.time("Extractor")
 
 attempt("data.json generation", () => {
     const output = Object.entries(readData()).map(([name, contents]) => {
-        const shortTip = getFirstSection(contents)
-        const longTip = getSection("### Detailed explanation", contents)
+        const shortTip = getShortTip(contents)
+        const longTip = getLongTip(contents)
 
         const links = getSection("### Resources", contents)
             .split("\n")

@@ -4,7 +4,6 @@ Images that contain text in them such as logos should make that text available t
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
 
 <!-- category: (0)-->
 <!-- available categories:
