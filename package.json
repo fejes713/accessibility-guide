@@ -21,6 +21,9 @@
   },
   "main": "index.js",
   "scripts": {
+    "extractor": "node ./src/extract.js",
+    "dev": "parcel website/index.html",
+    "build": "parcel build website/index.html -d docs/ --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stefan Fejes <ns.fejes.stefan@gmail.com> (https://stefanfejes.com)",

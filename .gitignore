@@ -1,8 +1,15 @@
-# System specific
+# system specific
 .DS_Store
 
-# Dependency directories
+# dependency directories
 node_modules/
 
-# Editor
+# parcel
+.cache
+dist
+
+# editor
 .vscode
+
+# dotenv environment variables file
+.env
