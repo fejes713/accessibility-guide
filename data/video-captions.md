@@ -1,6 +1,6 @@
 ### Avoid poor video captions
 
-Videos on your websites should have proper captioning. When transcribing video content, it is considered as a good practice to avoid vocal pauses and verbal missteps.
+Videos on your websites should have proper captioning. When transcribing video content, it is considered a good practice to avoid vocal pauses and verbal missteps.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->

@@ -1,6 +1,6 @@
-### Avoid `alt` tags on images of company logo
+### Avoid `alt` tags on images of your logo
 
-Hearing screen reader pronouncing description of company logo over and over gets tiresome. Use descriptive `alt` just on the first image of the company logo. Remember to include empty `alt` tag on others since screen readers will read the image source as the fallback.
+Hearing screen readers pronounce the description of your logo over and over gets tiresome. Use a descriptive `alt` tag just on the first image of your logo. Remember to include an empty `alt` tag on others since screen readers will read the image source as the fallback.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->

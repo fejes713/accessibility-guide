@@ -1,6 +1,6 @@
 ### Alert user for updates
 
-Make on the fly content changes accessible by making use of `WAI-ARIA` attributes on those elements. When notifying the user about certain behavior use `aria-life` attribute to let the screen reader know about new changes. Set the value of `aria-life` to `polite` if your changes aren't urgent or use `aria-life="assertive"` if you want to notify the user immediately.
+Make on the fly content changes accessible by making use of `WAI-ARIA` attributes on those elements. When notifying the user about a certain behavior use `aria-live` attribute to let the screen reader know about new changes. Set the value of `aria-live` to `polite` if your changes aren't urgent or use `aria-live="assertive"` if you want to notify the user immediately.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
