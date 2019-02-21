@@ -27,6 +27,12 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
-    "fs-extra": "^7.0.1"
+    "feather-icons": "^4.17.0",
+    "fs-extra": "^7.0.1",
+    "hyperapp": "^1.2.9"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0"
   }
 }
