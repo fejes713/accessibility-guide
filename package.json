@@ -22,6 +22,7 @@
   "main": "index.js",
   "scripts": {
     "extractor": "node ./src/extract.js",
+    "builder": "node ./src/builder.js",
     "dev": "parcel website/index.html",
     "build": "parcel build website/index.html -d docs/ --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,13 +30,14 @@
   "author": "Stefan Fejes <ns.fejes.stefan@gmail.com> (https://stefanfejes.com)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.2",
     "feather-icons": "^4.17.0",
-    "fs-extra": "^7.0.1",
     "hyperapp": "^1.2.9",
     "modern-normalize": "^0.5.0"
   },
   "devDependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1",
+    "markdown-builder": "^0.9.0",
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.11.0"
   }
