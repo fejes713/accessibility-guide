@@ -18,9 +18,12 @@ export default ({
     <span class="category">{category}</span>
     <Markdown node="h2" class="short-tip" content={shortTip} />
     <Markdown node="p" class="long-tip" content={longTip} />
-    <ul class="resource-list">
-        {links.map(link => <Markdown node="li" class="resource" content={link} />)}
-    </ul>
+    <section>
+        <p class="resource-title">Resources</p>
+        <ul class="resource-list">
+            {links.map(link => <Markdown node="li" class="resource" content={link} />)}
+        </ul>
+    </section>
 
     </li>
 )

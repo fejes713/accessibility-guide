@@ -39,6 +39,30 @@
         border-radius: 50px;
         color: hsl(161, 100%, 15%);
         background-color: hsl(161, 75%, 89%);
+    }
 
+    & .resource-title {
+        font-size: 12px;
+        font-weight: 500;
+        color: hsl(210, 5%, 38%);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    & .resource-list {
+        padding: 0;
+        list-style: none;
+    }
+
+    & .resource-list a {
+        list-style: none;
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(210, 5%, 38%);
+        text-decoration: none;
+    }
+
+    & .resource-list a:hover {
+        color: hsl(210, 40%, 38%);
     }
 }

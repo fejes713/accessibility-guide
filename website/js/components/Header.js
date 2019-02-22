@@ -6,8 +6,8 @@ export default () => (
     <div>
         <header>
             <a href="#main" class="skip-link">Skip to main content</a>
-            <h1>Web Accessibility Guide</h1>
-            <p>A curated collection of web accessibility tips, tricks and best practices</p>
+            <h1 class="title">Web Accessibility Guide</h1>
+            <p class="introduction">A curated collection of web accessibility tips, tricks and best practices. <br/> Let's make the web a better place for everyone.</p>
             <div class="social">
             <a
                 class="social-github"
