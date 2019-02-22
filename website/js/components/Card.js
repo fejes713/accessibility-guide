@@ -15,7 +15,7 @@ export default ({
         key={name}
         id={name.slice(0, name.length - 3)}
     >
-
+    <span class="category">{category}</span>
     <Markdown node="h2" class="short-tip" content={shortTip} />
     <Markdown node="p" class="long-tip" content={longTip} />
     <ul class="resource-list">

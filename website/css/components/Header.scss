@@ -2,4 +2,95 @@
 
 header {
     display: grid;
+    & a {
+        text-decoration: none;
+    }
+}
+
+.skip-link {
+    position: absolute;
+    left: -999em;
+}
+
+.skip-link:focus {
+    left: 1em;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    width: 100%
+}
+
+[class*="social-"] {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+
+    color: #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 2px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out 0s;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+
+    & :hover {
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+    & i {
+        margin-right: 8px;
+        margin-left: -4px;
+    }
+
+
+}
+
+.social-github {
+    background-color: rgb(51, 51, 51);
+    background-image: linear-gradient(rgb(51, 51, 51), rgb(51, 51, 51));
+    text-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px;
+    border-color: rgba(0, 0, 0, 0.08) 0px 1px 1px;
+
+    &:hover {
+        background-image: linear-gradient(rgb(51, 51, 60), rgb(51, 51, 60));
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+    &:active {
+        background-color: rgb(51, 51, 51);
+        background-image: linear-gradient(rgb(51, 51, 51), rgb(51, 51, 51));
+    }
+
+}
+
+.social-twitter {
+    background-color: rgb(0, 172, 237);
+    background-image: linear-gradient(rgb(0, 172, 237), rgb(0, 172, 237));
+    text-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px;
+    border-color: rgb(0, 172, 237);
+
+    &:hover {
+        background-image: linear-gradient(rgb(0, 178, 246), rgb(0, 178, 246));
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+    &:active {
+        background-image: linear-gradient(to top, rgb(0, 172, 237), rgb(0, 172, 237));
+        border-color: rgb(0, 172, 237);
+    }
+}
+
+.social-donate {
+    color: rgb(33, 35, 37);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(246, 247, 248));
+    border-color: rgb(214, 220, 231);
 }

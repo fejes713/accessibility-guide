@@ -6,9 +6,9 @@ const {
     attempt,
     readData,
     getSection,
-    getFirstSection,
     getShortTip,
-    getLongTip
+    getLongTip,
+    CATEGORY_NAMES
 } = require("./util")
 
 console.time("Extractor")
@@ -26,17 +26,17 @@ attempt("data.json generation", () => {
                 )
             )
             .map(v => v.replace(/[*-] /g, ""))
-            .filter(v => v.trim() !== "" && !v.includes("tags"))
+            .filter(v => v.trim() !== "" && !v.includes("category"))
 
+        const categoryNum = parseInt(
+            (contents.match(/<!--\s*category:\s*\((.+)\)/) || [])[1],
+            10)
         return {
             name,
             shortTip,
             longTip,
             links,
-            category: parseInt(
-                (contents.match(/<!--\s*category:\s*\((.+)\)/) || [])[1],
-                10
-            )
+            category: CATEGORY_NAMES[categoryNum]
         }
     })
 

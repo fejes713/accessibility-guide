@@ -5,11 +5,12 @@ import Icon from "./Icon"
 export default () => (
     <div>
         <header>
+            <a href="#main" class="skip-link">Skip to main content</a>
             <h1>Web Accessibility Guide</h1>
             <p>A curated collection of web accessibility tips, tricks and best practices</p>
             <div class="social">
             <a
-                class="github"
+                class="social-github"
                 href="https://github.com/fejes713/accessibility-guide"
                 target="_blank"
                 rel="noopener"
@@ -18,7 +19,7 @@ export default () => (
                 Star on Github
             </a>
             <a
-                class="twitter"
+                class="social-twitter"
                 href="https://github.com/fejes713/accessibility-guide"
                 target="_blank"
                 rel="noopener"
@@ -27,12 +28,12 @@ export default () => (
                 Tweet
             </a>
             <a
-                class="donate"
+                class="social-donate"
                 href="https://github.com/fejes713/accessibility-guide"
                 target="_blank"
                 rel="noopener"
             >
-                <Icon class="icon" name="link" />
+                <Icon class="icon" name="gift" />
                 Donate
             </a>
             </div>

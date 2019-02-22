@@ -6,35 +6,35 @@
     "links": [
       "[ARIA Live Regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)"
     ],
-    "category": 1
+    "category": "pro-tip"
   },
   {
     "name": "alt-full-stop.md",
     "shortTip": "Put a full stop at the end of the `alt` tag",
     "longTip": "Put a full stop at the end of an image's description inside the `alt` tag, so that screen readers can make a short pause which leads to better user experience.\n\n",
     "links": [],
-    "category": 1
+    "category": "pro-tip"
   },
   {
     "name": "alt-image-text.md",
     "shortTip": "Images with text should be accessible to screen readers",
     "longTip": "Images that contain text in them such as logos should make that text available to screen readers in some form. The most straightforward way to do this is to style a `header` element as image and use `text-indent: -9999px` as its text content.\n\n",
     "links": [],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "animation-pause.md",
     "shortTip": "Allow user to stop an animation",
     "longTip": "Complex or even simple animations can make it hard for some users to focus on the actual content of the webpage. Therefore your website should allow users to stop animations on the webpage at a particular keyframe.\n\n",
     "links": [],
-    "category": 1
+    "category": "pro-tip"
   },
   {
     "name": "auto-audio.md",
     "shortTip": "Avoid auto-playing audio on your website",
     "longTip": "Do not auto-play any audio or video material on page load. Users with screen readers will hear both 3rd party audio and their screen reader which makes for a poor user experience.\n\n",
     "links": [],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "contrast.md",
@@ -44,7 +44,7 @@
       "[Accessible color picker](https://cloudflare.design/color/)",
       "[Color contrast docs by MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "focus.md",
@@ -53,7 +53,7 @@
     "links": [
       "[Focusing on Focus Styles](https://css-tricks.com/focusing-on-focus-styles/)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "form-label.md",
@@ -62,7 +62,7 @@
     "links": [
       "[The `label` element docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form#The_%3Clabel%3E_element)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "form-validation.md",
@@ -71,21 +71,21 @@
     "links": [
       "[Sensible Forms: A Form Usability Checklist](https://alistapart.com/article/sensibleforms)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "logical-flow.md",
     "shortTip": "HTML should have a logical flow",
     "longTip": "Some screen readers can not figure out the styled layout, so they work with the plain HTML document to figure out in which order they should read the page. Although many screen readers support styled layouts, the safest method is to structure your HTML in a logical flow, so the content is understandable without the need for styles.\n\n",
     "links": [],
-    "category": 2
+    "category": "fact"
   },
   {
     "name": "logo-alt.md",
     "shortTip": "Avoid `alt` tags on images of your logo",
     "longTip": "Hearing screen readers pronounce the description of your logo over and over gets tiresome. Use a descriptive `alt` tag just on the first image of your logo. Remember to include an empty `alt` tag on others since screen readers will read the image source as the fallback.\n\n",
     "links": [],
-    "category": 1
+    "category": "pro-tip"
   },
   {
     "name": "semantic-elements.md",
@@ -95,7 +95,7 @@
       "[Semantics in HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)",
       "[The practical value of semantic HTML](https://www.brucelawson.co.uk/2018/the-practical-value-of-semantic-html/)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "skip-links.md",
@@ -104,7 +104,7 @@
     "links": [
       "[Codepen example](https://codepen.io/joe-watkins/pen/rjhiK)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "tab-friendly.md",
@@ -113,7 +113,7 @@
     "links": [
       "[Keyboard navigation explained in detail](https://webaim.org/techniques/keyboard/)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "table-scope.md",
@@ -122,7 +122,7 @@
     "links": [
       "[HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)"
     ],
-    "category": 1
+    "category": "pro-tip"
   },
   {
     "name": "table.md",
@@ -131,7 +131,7 @@
     "links": [
       "[Semantic table docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)"
     ],
-    "category": 0
+    "category": "tip"
   },
   {
     "name": "testing-li.md",
@@ -140,13 +140,13 @@
     "links": [
       "[The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)"
     ],
-    "category": 2
+    "category": "fact"
   },
   {
     "name": "video-captions.md",
     "shortTip": "Avoid poor video captions",
     "longTip": "Videos on your websites should have proper captioning. When transcribing video content, it is considered a good practice to avoid vocal pauses and verbal missteps.\n\n",
     "links": [],
-    "category": 1
+    "category": "pro-tip"
   }
 ]

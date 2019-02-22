@@ -8,3 +8,8 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.container {
+    width: 100%;
+    max-width: 768px;
+}
