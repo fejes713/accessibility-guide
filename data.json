@@ -6,14 +6,14 @@
     "links": [
       "[ARIA Live Regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)"
     ],
-    "category": "pro-tip"
+    "category": "pro tip"
   },
   {
     "name": "alt-full-stop.md",
     "shortTip": "Put a full stop at the end of the `alt` tag",
     "longTip": "Put a full stop at the end of an image's description inside the `alt` tag, so that screen readers can make a short pause which leads to better user experience.\n\n",
     "links": [],
-    "category": "pro-tip"
+    "category": "pro tip"
   },
   {
     "name": "alt-image-text.md",
@@ -27,7 +27,7 @@
     "shortTip": "Allow user to stop an animation",
     "longTip": "Complex or even simple animations can make it hard for some users to focus on the actual content of the webpage. Therefore your website should allow users to stop animations on the webpage at a particular keyframe.\n\n",
     "links": [],
-    "category": "pro-tip"
+    "category": "pro tip"
   },
   {
     "name": "auto-audio.md",
@@ -78,14 +78,14 @@
     "shortTip": "HTML should have a logical flow",
     "longTip": "Some screen readers can not figure out the styled layout, so they work with the plain HTML document to figure out in which order they should read the page. Although many screen readers support styled layouts, the safest method is to structure your HTML in a logical flow, so the content is understandable without the need for styles.\n\n",
     "links": [],
-    "category": "fact"
+    "category": "you should know"
   },
   {
     "name": "logo-alt.md",
     "shortTip": "Avoid `alt` tags on images of your logo",
     "longTip": "Hearing screen readers pronounce the description of your logo over and over gets tiresome. Use a descriptive `alt` tag just on the first image of your logo. Remember to include an empty `alt` tag on others since screen readers will read the image source as the fallback.\n\n",
     "links": [],
-    "category": "pro-tip"
+    "category": "pro tip"
   },
   {
     "name": "semantic-elements.md",
@@ -122,7 +122,7 @@
     "links": [
       "[HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)"
     ],
-    "category": "pro-tip"
+    "category": "pro tip"
   },
   {
     "name": "table.md",
@@ -140,13 +140,13 @@
     "links": [
       "[The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)"
     ],
-    "category": "fact"
+    "category": "you should know"
   },
   {
     "name": "video-captions.md",
     "shortTip": "Avoid poor video captions",
     "longTip": "Videos on your websites should have proper captioning. When transcribing video content, it is considered a good practice to avoid vocal pauses and verbal missteps.\n\n",
     "links": [],
-    "category": "pro-tip"
+    "category": "pro tip"
   }
 ]

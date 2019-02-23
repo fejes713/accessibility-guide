@@ -6,7 +6,6 @@
     margin: 24px 0;
     border-radius: 6px;
     position: relative;
-    border: 3px solid hsl(161, 75%, 89%);
 
     &.short-tip {
         margin-top: 0px;
@@ -34,11 +33,10 @@
         font-weight: 500;
         font-size: 12px;
         text-transform: uppercase;
+        letter-spacing: 0.5px;
         top: -15px;
         padding: 4px 6px;
         border-radius: 50px;
-        color: hsl(161, 100%, 15%);
-        background-color: hsl(161, 75%, 89%);
     }
 
     & .resource-title {
@@ -69,4 +67,31 @@
     & .resource-list a:hover {
         color: hsl(210, 40%, 38%);
     }
+}
+
+.category.tip {
+        color: hsl(161, 100%, 15%);
+        background-color: hsl(161, 75%, 89%);
+}
+
+.card.tip {
+    border: 3px solid hsl(161, 75%, 89%);
+}
+
+.category.pro-tip {
+    color: hsl(216, 100%, 15%);
+    background-color: hsl(216, 75%, 89%);
+}
+
+.card.pro-tip {
+    border: 3px solid hsl(216, 75%, 89%);
+}
+
+.category.you-should-know {
+    color: hsl(46, 100%, 15%);
+    background-color: hsl(46, 75%, 89%);
+}
+
+.card.you-should-know {
+    border: 3px solid hsl(46, 75%, 89%);
 }

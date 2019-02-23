@@ -6,8 +6,8 @@ const DATA_PATH = "./data"
 
 const CATEGORY_NAMES = {
     0: "tip",
-    1: "pro-tip",
-    2: "fact"
+    1: "pro tip",
+    2: "you should know"
 }
 
 const attempt = (task, cb) => {
