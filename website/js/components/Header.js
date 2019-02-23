@@ -20,7 +20,7 @@ export default () => (
             </a>
             <a
                 class="social-twitter"
-                href="https://github.com/fejes713/accessibility-guide"
+                    href="http://twitter.com/share?text=Check out Accessibility Guide, a curated collection of web accessibility tips, tricks and best practices&url=https://webaccessibility.guide"
                 target="_blank"
                 rel="noopener"
             >
@@ -29,7 +29,7 @@ export default () => (
             </a>
             <a
                 class="social-donate"
-                href="https://github.com/fejes713/accessibility-guide"
+                    href="https://www.paypal.me/stefanfejes/1"
                 target="_blank"
                 rel="noopener"
             >

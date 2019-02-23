@@ -21,7 +21,9 @@ export default ({
     <section>
         <p class="resource-title">Resources</p>
         <ul class="resource-list">
-            {links.map(link => <Markdown node="li" class="resource" content={link} />)}
+            {links.map(link => (
+                <Markdown node="li" class="resource" content={link} />
+            ))}
         </ul>
     </section>
 
