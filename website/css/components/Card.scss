@@ -71,15 +71,15 @@
 
 .category.tip {
         color: hsl(161, 100%, 15%);
-        background-color: hsl(161, 75%, 89%);
+        background-color: hsl(161, 40%, 80%);
 }
 
 .card.tip {
-    border: 3px solid hsl(161, 75%, 89%);
+    border: 3px solid hsl(161, 40%, 80%);
 
     & code {
         color: hsl(161, 100%, 15%);
-        background-color: hsl(161, 75%, 89%);
+        background-color: hsl(161, 40%, 80%);
     }
 }
 

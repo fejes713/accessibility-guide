@@ -3,7 +3,7 @@ import Icon from "./Icon"
 
 
 export default () => (
-    <div>
+
         <header>
             <a href="#main" class="skip-link">Skip to main content</a>
             <h1 class="title">Web Accessibility Guide</h1>
@@ -38,6 +38,6 @@ export default () => (
             </a>
             </div>
         </header>
-    </div>
+
 
 )
