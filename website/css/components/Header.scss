@@ -105,6 +105,10 @@ header {
     background-color: rgb(163, 125, 125);
     background-image: linear-gradient(rgb(255, 255, 255), rgb(246, 247, 248));
     border-color: rgb(214, 220, 231);
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
 }
 
 @media (max-width: $breakpoint-sm) {
