@@ -25,6 +25,7 @@
     "builder": "node ./src/builder.js",
     "dev": "parcel website/index.html",
     "build": "parcel build website/index.html -d docs/ --public-url ./",
+    "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stefan Fejes <ns.fejes.stefan@gmail.com> (https://stefanfejes.com)",
@@ -40,6 +41,7 @@
     "fs-extra": "^7.0.1",
     "markdown-builder": "^0.9.0",
     "node-sass": "^4.11.0",
-    "parcel-bundler": "^1.11.0"
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.4"
   }
 }

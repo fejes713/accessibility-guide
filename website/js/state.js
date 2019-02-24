@@ -1,5 +1,5 @@
-import tips from "../../data.json"
+import tips from "../../data.json";
 
 export default {
-    tips
-}
+  tips
+};
