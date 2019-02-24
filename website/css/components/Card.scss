@@ -76,6 +76,11 @@
 
 .card.tip {
     border: 3px solid hsl(161, 75%, 89%);
+
+    & code {
+        color: hsl(161, 100%, 15%);
+        background-color: hsl(161, 75%, 89%);
+    }
 }
 
 .category.pro-tip {
@@ -85,6 +90,11 @@
 
 .card.pro-tip {
     border: 3px solid hsl(216, 75%, 89%);
+
+    & code {
+        color: hsl(216, 100%, 15%);
+        background: radial-gradient(circle at 30% 50%,hsl(216, 75%, 89%),hsl(216, 75%, 89%));
+    }
 }
 
 .category.you-should-know {

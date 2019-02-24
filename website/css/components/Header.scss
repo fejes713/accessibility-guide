@@ -106,3 +106,9 @@ header {
     background-image: linear-gradient(rgb(255, 255, 255), rgb(246, 247, 248));
     border-color: rgb(214, 220, 231);
 }
+
+@media (max-width: $breakpoint-sm) {
+    .social {
+        grid-template-columns: 1fr;
+    }
+}
