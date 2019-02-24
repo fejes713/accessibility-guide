@@ -54,7 +54,7 @@
 
     & .resource-list a {
         list-style: none;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         color: hsl(210, 5%, 38%);
         text-decoration: none;
@@ -65,7 +65,8 @@
     }
 
     & .resource-list a:hover {
-        color: hsl(210, 40%, 38%);
+        color: hsl(210, 5%, 20%);
+        text-decoration: underline;
     }
 }
 
