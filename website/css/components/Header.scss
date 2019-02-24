@@ -53,15 +53,15 @@ header {
     border-width: 1px;
     border-style: solid;
 
-    & :hover {
-        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-    }
-
     & i {
         margin-right: 8px;
         margin-left: -4px;
     }
 
+    &:focus {
+        outline: 0;
+        box-shadow: hsl(212, 100%, 45%) 0px 0px 0px 1px, hsl(212, 100%, 60%) 0px 0px 0px 3px;
+    }
 
 }
 
