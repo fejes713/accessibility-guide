@@ -23,6 +23,15 @@
     "category": "tip"
   },
   {
+    "name": "alt-tag.md",
+    "shortTip": "Always include alt tag on an image",
+    "longTip": "Screen readers for the blind and visually impaired read out `alt` tag text and therefore make your images accessible. `alt` tag should describe meaningful images and be left empty if the image serves decorative purposes. Never leave the `alt` since screen readers will read the source of the image which makes for terrible user experience.\n\n",
+    "links": [
+      "[Some things about alt text](https://css-tricks.com/some-things-about-alt-text/)"
+    ],
+    "category": "tip"
+  },
+  {
     "name": "animation-pause.md",
     "shortTip": "Allow user to stop an animation",
     "longTip": "Complex or even simple animations can make it hard for some users to focus on the actual content of the webpage. Therefore your website should allow users to stop animations on the webpage at a particular keyframe.\n\n",
@@ -138,7 +147,17 @@
     "shortTip": "Don't rely just on Lighthouse when testing",
     "longTip": "Testing your websites for accessibility with off the shelf solutions like Lighthouse isn't enough. Instead, manually test your websites. There are great extensions to help you simulate common user conditions.\n\n",
     "links": [
-      "[The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)"
+      "[The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)",
+      "[Accessibility Testing Tools](https://css-tricks.com/accessibility-testing-tools/)"
+    ],
+    "category": "you should know"
+  },
+  {
+    "name": "typography.md",
+    "shortTip": "Improve typography on your website",
+    "longTip": "Enhance accessibility and user experience by making your content more comfortable to read. Text on the webpage should be justified to the left with a `font-size` of `16px` at a minimum. `line-height` of `1.5` is optional to make for a pleasant reading experience.\n\n",
+    "links": [
+      "[Resource title](https://)"
     ],
     "category": "you should know"
   },
