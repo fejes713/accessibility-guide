@@ -60,7 +60,7 @@ try {
   const snippetsInTag = {};
 
   CATEGORY_NAMES.forEach(
-    (tag, i) => (snippetsInTag[i] = snippets.filter(v => v.category == i))
+    (tag, i) => (snippetsInTag[i] = snippets.filter(v => v.categoryId == i))
   );
 
   // write Table of Contents
