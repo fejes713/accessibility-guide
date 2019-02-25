@@ -83,6 +83,15 @@
     "category": "tip"
   },
   {
+    "name": "headings.md",
+    "shortTip": "Follow heading hierarchy",
+    "longTip": "Screen reader users navigate pages by using the heading structure. Do not use headings by picking the one that fits the appropriate size in design. Instead, use heading elements `h1` to `h6` with the hierarchy in mind and style them later.\n\n",
+    "links": [
+      "[Resource title](https://)"
+    ],
+    "category": "tip"
+  },
+  {
     "name": "logical-flow.md",
     "shortTip": "HTML should have a logical flow",
     "longTip": "Some screen readers can not figure out the styled layout, so they work with the plain HTML document to figure out in which order they should read the page. Although many screen readers support styled layouts, the safest method is to structure your HTML in a logical flow, so the content is understandable without the need for styles.\n\n",
