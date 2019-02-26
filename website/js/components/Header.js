@@ -8,7 +8,7 @@ export default () => (
     </a>
     <h1 class="title">Web Accessibility Guide</h1>
     <p class="introduction">
-      A curated collection of web accessibility tips, tricks and best practices.{" "}
+      A curated collection of web accessibility tips, tricks, and best practices.
       <br /> Let's make the web a better place for everyone.
     </p>
     <div class="social">

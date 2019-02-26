@@ -2,7 +2,7 @@ import { h } from "hyperapp";
 import Card from "./Card";
 
 export default () => state => (
-  <main>
+  <main id="main">
     <div class="container">
       <ul class="cards">
         {[...state.tips].map(c => (
