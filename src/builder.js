@@ -84,7 +84,7 @@ try {
         output += headers.h4("Resources");
         output += `\n${snippet.links.map(v => `* ${v}`).join("\n")}`;
       }
-      output += `\n<br>${misc.link(
+      output += `\n\n<br>${misc.link(
         "⬆ Back to top",
         misc.anchor("Table of Contents")
       )}\n\n`;
