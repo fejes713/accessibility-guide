@@ -1,6 +1,6 @@
-### Always include alt tag on an image
+### Always include alt attribute on an image
 
-Screen readers for the blind and visually impaired read out `alt` tag text and therefore make your images accessible. `alt` tag should describe meaningful images and be left empty if the image serves decorative purposes. Never leave the `alt` since screen readers will read the source of the image which makes for terrible user experience.
+Screen readers for the blind and visually impaired read out `alt` attribute text and therefore make your images accessible. `alt` attribute should describe meaningful images and be left empty if the image serves decorative purposes. Never leave the `alt` since screen readers will read the source of the image which makes for terrible user experience.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->

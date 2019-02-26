@@ -9,6 +9,15 @@
     "category": "pro tip"
   },
   {
+    "name": "alt-attribute.md",
+    "shortTip": "Always include alt attribute on an image",
+    "longTip": "Screen readers for the blind and visually impaired read out `alt` attribute text and therefore make your images accessible. `alt` attribute should describe meaningful images and be left empty if the image serves decorative purposes. Never leave the `alt` since screen readers will read the source of the image which makes for terrible user experience.\n\n",
+    "links": [
+      "[Some things about alt text](https://css-tricks.com/some-things-about-alt-text/)"
+    ],
+    "category": "tip"
+  },
+  {
     "name": "alt-full-stop.md",
     "shortTip": "Put a full stop at the end of the `alt` tag",
     "longTip": "Put a full stop at the end of an image's description inside the `alt` tag, so that screen readers can make a short pause which leads to better user experience.\n\n",
@@ -20,15 +29,6 @@
     "shortTip": "Images with text should be accessible to screen readers",
     "longTip": "Images that contain text in them such as logos should make that text available to screen readers in some form. The most straightforward way to do this is to style a `header` element as image and use `text-indent: -9999px` as its text content.\n\n",
     "links": [],
-    "category": "tip"
-  },
-  {
-    "name": "alt-tag.md",
-    "shortTip": "Always include alt tag on an image",
-    "longTip": "Screen readers for the blind and visually impaired read out `alt` tag text and therefore make your images accessible. `alt` tag should describe meaningful images and be left empty if the image serves decorative purposes. Never leave the `alt` since screen readers will read the source of the image which makes for terrible user experience.\n\n",
-    "links": [
-      "[Some things about alt text](https://css-tricks.com/some-things-about-alt-text/)"
-    ],
     "category": "tip"
   },
   {
