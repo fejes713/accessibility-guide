@@ -37,7 +37,8 @@ attempt("data.json generation", () => {
       shortTip,
       longTip,
       links,
-      category: CATEGORY_NAMES[categoryNum]
+      category: CATEGORY_NAMES[categoryNum],
+      categoryId: categoryNum
     };
   });
 
