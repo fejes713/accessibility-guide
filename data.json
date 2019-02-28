@@ -52,6 +52,16 @@
     "categoryId": 0
   },
   {
+    "name": "buttons-that-only-show-up-on-hover",
+    "shortTip": "Buttons that only show up on hover",
+    "longTip": "Be mindful of a pattern where buttons are hidden and only get displayed when parent element is hovered: this can make the buttons inaccessible from keyboard. instead us using `display:none` of `visibility:none`, consider using alternative methods, e.g. using `position: absolute` and pushing it off the screen.\n\n",
+    "links": [
+      "[See how angular hides elements with cdk-visually-hidden class](https://cs.corp.google.com/piper///depot/google3/third_party/javascript/angular2_material/src/cdk/a11y/_a11y.scss)"
+    ],
+    "category": "tip",
+    "categoryId": 0
+  },
+  {
     "name": "contrast.md",
     "shortTip": "Always feature optimal contrast",
     "longTip": "Whenever possible make your websites accessible to the eye by avoiding poor contrast between text and background.\n\n",

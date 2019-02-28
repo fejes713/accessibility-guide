@@ -19,6 +19,7 @@
 * [Always include alt attribute on an image](#always-include-alt-attribute-on-an-image)
 * [Images with text should be accessible to screen readers](#images-with-text-should-be-accessible-to-screen-readers)
 * [Avoid auto-playing audio on your website](#avoid-auto-playing-audio-on-your-website)
+* [Buttons that only show up on hover](#buttons-that-only-show-up-on-hover)
 * [Always feature optimal contrast](#always-feature-optimal-contrast)
 * [Don't remove `:focus` on elements](#dont-remove-focus-on-elements)
 * [Use labels on `form` fields](#use-labels-on-form-fields)
@@ -83,6 +84,17 @@ Images that contain text in them such as logos should make that text available t
 Do not auto-play any audio or video material on page load. Users with screen readers will hear both 3rd party audio and their screen reader which makes for a poor user experience.
 
 
+
+<br>[⬆ Back to top](#table-of-contents)
+
+### Buttons that only show up on hover
+
+Be mindful of a pattern where buttons are hidden and only get displayed when parent element is hovered: this can make the buttons inaccessible from keyboard. instead us using `display:none` of `visibility:none`, consider using alternative methods, e.g. using `position: absolute` and pushing it off the screen.
+
+
+#### Resources
+
+* [See how angular hides elements with cdk-visually-hidden class](https://cs.corp.google.com/piper///depot/google3/third_party/javascript/angular2_material/src/cdk/a11y/_a11y.scss)
 
 <br>[⬆ Back to top](#table-of-contents)
 
