@@ -107,7 +107,7 @@
     "shortTip": "Follow heading hierarchy",
     "longTip": "Screen reader users navigate pages by using the heading structure. Do not use headings by picking the one that fits the appropriate size in design. Instead, use heading elements `h1` to `h6` with the hierarchy in mind and style them later.\n\n",
     "links": [
-      "[Resource title](https://)"
+      "[Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)"
     ],
     "category": "tip",
     "categoryId": 0

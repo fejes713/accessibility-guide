@@ -150,7 +150,7 @@ Screen reader users navigate pages by using the heading structure. Do not use he
 
 #### Resources
 
-* [Resource title](https://)
+* [Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)
 
 <br>[⬆ Back to top](#table-of-contents)
 
