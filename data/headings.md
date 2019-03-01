@@ -4,7 +4,7 @@ Screen reader users navigate pages by using the heading structure. Do not use he
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
-* [Resource title](https://)
+* [Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)
 
 <!-- category: (0)-->
 <!-- available categories:
