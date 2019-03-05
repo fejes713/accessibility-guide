@@ -1,6 +1,6 @@
 ### Buttons that only show up on hover
 
-Be mindful of a pattern where buttons are hidden and only get displayed when parent element is hovered: this can make the buttons inaccessible from keyboard. instead us using `display:none` of `visibility:none`, consider using alternative methods, e.g. using `position: absolute` and pushing it off the screen.
+Be mindful of a pattern where buttons are hidden and only get displayed when parent element is hovered: this can make the buttons inaccessible from keyboard. instead us using `display:none` or `visibility: hidden`, consider using alternative methods, e.g. using `position: absolute` and pushing it off the screen.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
