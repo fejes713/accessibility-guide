@@ -17,7 +17,6 @@
 <summary>View contents</summary>
 
 * [Always include alt attribute on an image](#always-include-alt-attribute-on-an-image)
-* [Images with text should be accessible to screen readers](#images-with-text-should-be-accessible-to-screen-readers)
 * [Avoid auto-playing audio on your website](#avoid-auto-playing-audio-on-your-website)
 * [Buttons that only show up on hover](#buttons-that-only-show-up-on-hover)
 * [Always feature optimal contrast](#always-feature-optimal-contrast)
@@ -38,7 +37,7 @@
 <summary>View contents</summary>
 
 * [Alert user for updates](#alert-user-for-updates)
-* [Put a full stop at the end of the `alt` tag](#put-a-full-stop-at-the-end-of-the-alt-tag)
+* [Put a full stop at the end of the `alt` attribute](#put-a-full-stop-at-the-end-of-the-alt-attribute)
 * [Allow user to stop an animation](#allow-user-to-stop-an-animation)
 * [Avoid `alt` tags on images of your logo](#avoid-alt-tags-on-images-of-your-logo)
 * [Tables should always include scoping in their HTML](#tables-should-always-include-scoping-in-their-html)
@@ -71,14 +70,6 @@ Screen readers for the blind and visually impaired read out `alt` attribute text
 
 <br>[⬆ Back to top](#table-of-contents)
 
-### Images with text should be accessible to screen readers
-
-Images that contain text in them such as logos should make that text available to screen readers in some form. The most straightforward way to do this is to style a `header` element as image and use `text-indent: -9999px` as its text content.
-
-
-
-<br>[⬆ Back to top](#table-of-contents)
-
 ### Avoid auto-playing audio on your website
 
 Do not auto-play any audio or video material on page load. Users with screen readers will hear both 3rd party audio and their screen reader which makes for a poor user experience.
@@ -89,7 +80,7 @@ Do not auto-play any audio or video material on page load. Users with screen rea
 
 ### Buttons that only show up on hover
 
-Be mindful of a pattern where buttons are hidden and only get displayed when parent element is hovered: this can make the buttons inaccessible from keyboard. instead us using `display:none` of `visibility:none`, consider using alternative methods, e.g. using `position: absolute` and pushing it off the screen.
+Be mindful of a pattern where buttons are hidden and only get displayed when parent element is hovered: this can make the buttons inaccessible from keyboard. instead us using `display:none` or `visibility: hidden`, consider using alternative methods, e.g. using `position: absolute` and pushing it off the screen.
 
 
 #### Resources
@@ -106,6 +97,7 @@ Whenever possible make your websites accessible to the eye by avoiding poor cont
 #### Resources
 
 * [Accessible color picker](https://cloudflare.design/color/)
+* [Accessible color compliance checker](http://accessible-colors.com)
 * [Color contrast docs by MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast)
 
 <br>[⬆ Back to top](#table-of-contents)
@@ -212,9 +204,9 @@ Make on the fly content changes accessible by making use of `WAI-ARIA` attribute
 
 <br>[⬆ Back to top](#table-of-contents)
 
-### Put a full stop at the end of the `alt` tag
+### Put a full stop at the end of the `alt` attribute
 
-Put a full stop at the end of an image's description inside the `alt` tag, so that screen readers can make a short pause which leads to better user experience.
+Put a full stop at the end of an image's description inside the `alt` attribute, so that screen readers can make a short pause which leads to better user experience.
 
 
 
