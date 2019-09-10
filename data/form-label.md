@@ -1,6 +1,6 @@
 ### Use labels on `form` fields
 
-Once implemented properly, `label` elements make the form accessible. Each `label` element should have a `for` attribute that has the value of the corresponding filed's `id`.
+Once implemented properly, `label` elements make the form accessible. Each `label` element should have a `for` attribute that has the value of the corresponding field's `id`.
 
 ### Resources
 <!-- Whenever possible, include the links to more advanced guide-->
